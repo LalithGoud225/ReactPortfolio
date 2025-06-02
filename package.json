@@ -1,8 +1,8 @@
 {
   "name": "react-tailwind-portfolio",
   "version": "1.0.0",
+  "homepage": "https://LalithGoud225.github.io/ReactPortfolio",
   "private": true,
-  "homepage": "https://lalithgoud225.github.io/PortfolioLatest",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -14,10 +14,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages --dotfiles -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
